@@ -66,7 +66,7 @@ export default function List({navigation}) {
           {
             Movies.map((movie, i) => (
               <ListItem key={i} bottomDivider onPress={() => navigation.navigate("Details")}>
-                <Avatar rounded source={{uri: movie.Image}}></Avatar>
+                <Avatar style={styles.peliculas}  source={{uri: movie.Image}}></Avatar>
                 <ListItem.Content>
                   <ListItem.Title>{movie.Name}</ListItem.Title>
                   <ListItem.Subtitle>{movie.Genre}</ListItem.Subtitle>
@@ -90,4 +90,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  peliculas:{
+    width:150,
+    height:200,
+    marginStart:10,
+    marginRight:10
+  }
 });
