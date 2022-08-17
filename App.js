@@ -14,15 +14,16 @@ export default function App() {
       <Tab.Navigator>
         <Tab.Screen name='Inicio' 
         options={{
-          tabBarLabel: 'Inicio',
+          tabBarLabel: 'Peliculas',
           tabBarIcon: ({ color, size }) => (
             <FontAwesome name="video-camera" color={color} size={size} />
           ),
         }} component={Home}/>
-        
+
         <Tab.Screen name='Peliculas' 
         options={{
-          tabBarLabel: 'Peliculas',
+          headerShown: false,
+          tabBarLabel: 'Series',
           tabBarIcon: ({ color, size }) => (
             <MaterialIcons name="live-tv" color={color} size={size} />
           ),

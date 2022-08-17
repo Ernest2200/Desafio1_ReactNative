@@ -12,8 +12,8 @@ const Stack=createNativeStackNavigator();
 export default function MoviesNavigation() {
   return (
     <Stack.Navigator>
-    <Stack.Screen name='List' component={List}/>
-    <Stack.Screen name='Details' component={Details}/>
+    <Stack.Screen name='Series' component={List}/>
+    <Stack.Screen name='Detalles' component={Details}/>
   </Stack.Navigator>
   );
 }
