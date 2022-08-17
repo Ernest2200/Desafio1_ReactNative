@@ -88,12 +88,13 @@ export default function List({navigation}) {
            Series.map((movie, i) => (
               <ListItem containerStyle={{backgroundColor:"black"}} 
               
-               key={i} bottomDivider onPress={() => navigation.navigate("Detalles", { NameMovie: movie.Name })}
+               key={i} bottomDivider onPress={() => navigation.navigate("Detalles", { NameMovie: movie.Name, ImageMovie: movie.Image, MovieDesc:movie.Description})}
                >
                 <Avatar style={styles.peliculas}  source={{uri: movie.Image}}></Avatar>
                 <ListItem.Content >
                   <ListItem.Title style={{color: "white"}} >{movie.Name}</ListItem.Title>
                   <ListItem.Subtitle style={{color: "white"}}>{movie.Genre}</ListItem.Subtitle>
+                  <ListItem.Subtitle style={{color: "white"}}>{movie.Seasons}<Text>Temporadas</Text></ListItem.Subtitle>
                 </ListItem.Content>
               </ListItem>
             ))
