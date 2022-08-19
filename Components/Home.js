@@ -20,7 +20,7 @@ export default function Home() {
     <View>
     <Image
     style={styles.peliculas}
-    source={{uri:'https://i.pinimg.com/originals/2f/7c/1e/2f7c1e92b06951d92562b00b439b54de.jpg'} }/>
+    source={{uri:'https://1.bp.blogspot.com/-oZqtpEj62vw/X9cpCv7lAzI/AAAAAAAA7UE/fblZkA9IwF0yWvkqQnhmCRLIhOJcYa0-ACLcBGAsYHQ/s888/la-otra-missy-poster-netflix.jpg'} }/>
     </View>
     <View>
      <Image
