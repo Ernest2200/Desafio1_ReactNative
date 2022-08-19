@@ -29,7 +29,7 @@ const Series=[
     Description:'Gran Bretaña vive la posguerra. Los soldados regresan, se acuñan nuevas revoluciones y nacen bandas criminales en una nación agitada. En Birmingham, una pandilla de gánsters callejeros asciende hasta convertirse en los reyes de la clase obrera.',
     Genre:'Drama/Crimen',
     Seasons: '6',
-    Image:'https://pics.filmaffinity.com/Peaky_Blinders_Serie_de_TV-549874356-large.jpg'
+    Image:'https://es.web.img3.acsta.net/pictures/15/10/23/08/59/222051.jpg?coixp=45&coiyp=64'
   },
   {
     Name:'El Mentalista',
@@ -94,7 +94,7 @@ export default function List({navigation}) {
                 <ListItem.Content >
                   <ListItem.Title style={{color: "white"}} >{movie.Name}</ListItem.Title>
                   <ListItem.Subtitle style={{color: "white"}}>{movie.Genre}</ListItem.Subtitle>
-                  <ListItem.Subtitle style={{color: "white"}}>{movie.Seasons}<Text>Temporadas</Text></ListItem.Subtitle>
+                  <ListItem.Subtitle style={{color: "white"}}>{movie.Seasons}<Text> Temporadas</Text></ListItem.Subtitle>
                 </ListItem.Content>
               </ListItem>
             ))
